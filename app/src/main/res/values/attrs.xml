@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="SelectionTextView">
+        <attr name="textLabel" format="string" />
+        <attr name="textPlaceholder" format="string"/>
+        <attr name="colorPlaceholder" format="color"/>
+        <attr name="colorValue" format="color"/>
+        <attr name="colorLabel" format="color"/>
+        <attr name="textValue" format="string"/>
+        <attr name="valueBold" format="boolean"/>
+    </declare-styleable>
+
+</resources>

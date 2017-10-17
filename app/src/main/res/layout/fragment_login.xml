@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.flaviofaria.kenburnsview.KenBurnsView
+        android:id="@+id/fragment_login_background"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/splash1" />
+
+    <com.voxed.ui.views.SeeThroughTextView
+        android:id="@+id/fragment_login_title"
+        android:layout_gravity="center_horizontal"
+        style="@style/Base.TextAppearance.AppCompat.Title"
+        android:text="@string/app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</FrameLayout>

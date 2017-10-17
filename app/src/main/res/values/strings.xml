@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Voxed</string>
+    <string name="default_generic_error">Ups! Ocurrio un error, intenta devuelta mas tarde</string>
+    <string name="responded_to">respondio a</string>
+    <string name="vox_title">Titulo del Vox</string>
+    <string name="vox_description">Descripcion</string>
+    <string name="vox_attached">Adjuntar</string>
+    <string name="vox_attached_hint">Subi una Imagen o un video de YouTube</string>
+    <string name="vox_opt_1">Opcion 1</string>
+    <string name="vox_opt_2">Opcion 2</string>
+    <string name="enable_polling">Habilitar votacion</string>
+</resources>

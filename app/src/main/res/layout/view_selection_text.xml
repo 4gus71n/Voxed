@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+<TextView
+    tools:text="Sports"
+    android:textColor="@color/colorText2"
+    android:layout_alignParentLeft="true"
+    android:id="@+id/selection_label_text_view"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+
+<TextView
+    tools:text="Invalid sport selected"
+    android:layout_marginTop="8dp"
+    android:textColor="@color/colorAccent"
+    android:textSize="12sp"
+    android:layout_below="@id/selection_label_text_view"
+    android:layout_alignParentLeft="true"
+    android:id="@+id/selection_error_text_view"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+
+<TextView
+    tools:text="SELECT"
+    android:gravity="right"
+    android:textColor="@color/colorGreyLight"
+    android:layout_alignParentRight="true"
+    android:id="@+id/selection_value_text_view"
+    android:layout_width="match_parent"
+    android:paddingLeft="8dp"
+    android:ellipsize="end"
+    android:ems="8"
+    android:maxLines="1"
+    android:layout_height="wrap_content"
+    android:layout_toRightOf="@+id/selection_label_text_view"
+    android:layout_toEndOf="@+id/selection_label_text_view" />
+
+</RelativeLayout>

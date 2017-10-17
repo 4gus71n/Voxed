@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:layout_margin="@dimen/app_small_padding"
+        android:id="@+id/fragment_new_vox_title_edittext"
+        android:hint="@string/vox_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <View
+        android:background="@color/colorGreyLight"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"/>
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:layout_margin="@dimen/app_small_padding"
+        android:id="@+id/fragment_new_vox_description_edittext"
+        android:hint="@string/vox_description"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <View
+        android:background="@color/colorGreyLight"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"/>
+
+    <com.voxed.ui.views.SelectionTextView
+        android:paddingLeft="@dimen/app_small_padding"
+        android:paddingRight="@dimen/app_small_padding"
+        android:paddingTop="@dimen/app_normal_padding"
+        android:paddingBottom="@dimen/app_normal_padding"
+        android:id="@+id/fragment_new_vox_attachment_selectionview"
+        app:textLabel="@string/vox_attached"
+        app:textPlaceholder="@string/vox_attached_hint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <View
+        android:background="@color/colorGreyLight"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"/>
+
+    <CheckBox
+        android:id="@+id/fragment_new_vox_checkbox"
+        android:layout_marginTop="@dimen/app_small_padding"
+        android:text="@string/enable_polling"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:enabled="false"
+        android:layout_margin="@dimen/app_small_padding"
+        android:id="@+id/fragment_new_vox_op1_edittext"
+        android:hint="@string/vox_opt_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:layout_marginTop="0dp"
+        android:enabled="false"
+        android:id="@+id/fragment_new_vox_op2_edittext"
+        android:layout_margin="@dimen/app_small_padding"
+        android:hint="@string/vox_opt_2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <View
+        android:background="@color/colorGreyLight"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"/>
+
+</LinearLayout>

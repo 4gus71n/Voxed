@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.voxed.ui.views.VoxCommentView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.CardView
+        android:elevation="2dp"
+        android:layout_marginLeft="@dimen/app_small_padding"
+        android:layout_marginRight="@dimen/app_small_padding"
+        android:layout_marginBottom="@dimen/app_small_padding"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/view_vox_comment_container"
+            android:padding="@dimen/app_small_padding"
+            android:background="@color/colorPrimary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_marginRight="@dimen/app_small_padding"
+                android:id="@+id/view_vox_comment_avatar_imageview"
+                android:layout_width="42dp"
+                android:layout_height="42dp" />
+
+            <TextView
+                android:layout_marginBottom="@dimen/app_small_padding"
+                android:textColor="@color/colorWhite"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                android:textStyle="bold"
+                tools:text="Respondio a #1245895f"
+                android:layout_alignTop="@id/view_vox_comment_avatar_imageview"
+                android:layout_toRightOf="@id/view_vox_comment_avatar_imageview"
+                android:id="@+id/view_vox_comment_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:layout_below="@id/view_vox_comment_title"
+                android:layout_toRightOf="@id/view_vox_comment_avatar_imageview"
+                android:id="@+id/view_vox_comment_attached_image"
+                android:maxHeight="240dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:textColor="@color/colorWhite"
+                android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+                tools:text="asdasdansd asdaisdiasdada daoskdakoekiosf sdoifksodkfsdfksdopf"
+                android:layout_toRightOf="@id/view_vox_comment_avatar_imageview"
+                android:layout_below="@id/view_vox_comment_attached_image"
+                android:id="@+id/view_vox_comment_body"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+        </RelativeLayout>
+
+    </android.support.v7.widget.CardView>
+
+</com.voxed.ui.views.VoxCommentView>
